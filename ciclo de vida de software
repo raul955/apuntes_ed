@@ -48,6 +48,7 @@ Un ejemplo de una metodología de desarrollo en cascada es:
  -Pruebas.
  -Implementación del programa.
  -Mantenimiento
+ 
 ###4. Ventajas e inconvenientes del desarrolo en cascada.
 **Ventajas:**
 -Realiza un buen funcionamiento en equipos débiles y productos maduros, por lo que se requiere menos capital y herramientas para hacerlo funcionar de forma óptima.
@@ -96,7 +97,7 @@ El Modelo de prototipos, en Ingeniería de software, pertenece a los modelos de 
 
 El diseño rápido se centra en una representación de aquellos aspectos del software que serán visibles para el cliente o el usuario final. Este diseño conduce a la construcción de un prototipo, el cual es evaluado por el cliente para una retroalimentación; gracias a ésta se refinan los requisitos del software que se desarrollará. La interacción ocurre cuando el prototipo se ajusta para satisfacer las necesidades del cliente. Esto permite que al mismo tiempo el desarrollador entienda mejor lo que se debe hacer y el cliente vea resultados a corto plazo.
 
-Consta de varias etapas:
+**Consta de varias etapas:**
 
    Comunicación
    Plan rápido.
@@ -104,6 +105,7 @@ Consta de varias etapas:
    Construcción del Prototipo
    Desarrollo, entrega y retroalimentación
    Entrega del desarrollo final
+   
 ###7.  Explica como funciona el modelo espiral cuando se aplica al desarrollo orientado a objetos.
 El desarrollo en espiral es un modelo de ciclo de vida del software definido por primera vez por Barry Boehm en 1986,1​ utilizado generalmente en la Ingeniería de software. Las actividades de este modelo se conforman en una espiral, en la que cada bucle o iteración representa un conjunto de actividades. Las actividades no están fijadas a ninguna prioridad, sino que las siguientes se eligen en función del análisis de riesgo, comenzando por el bucle interior. 
 
@@ -114,6 +116,50 @@ El desarrollo en espiral es un modelo de ciclo de vida del software definido por
 -Valorar más la respuesta ante el cambio que seguir un plan.
 
 ###9. ¿Qué es una historia de usuario?
+Una historia de usuario es una representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario. Las historias de usuario son utilizadas en las metodologías de desarrollo ágiles para la especificación de requisitos. Cada historia debe ser limitada, debería poderse escribir sobre una nota adhesiva pequeña.
+
+###10. Haz un resumen sobre qué se entiende por Lean software y qué principios lo rigen.
+Es una traducción de los principios y las prácticas de la forma de producir lean, hacia el área del desarrollo de software. Inicialmente, originado en el Sistema de Producción de Toyota y ahora, apoyado por una corriente que está surgiendo desde la comunidad Ágil. Este método ofrece todo un marco teórico sólido y basado en la experiencia, para las prácticas ágiles de gestión. Lo rigen los siguientes principios:
+
+-Eliminar los desperdicios
+-Amplificar el aprendizaje
+-Decidir lo más tarde posible
+-Entregar tan rápido como sea posible
+-Capacitar al equipo
+-Contruir integridad intrínseca
+-Véase todo el conjunto
+
+###11. Estudia las ventajas e inconvenientes de tener una pizarra web digital para la metodología kanban.
+**Beneficios:**
+-Estímulo del rendimiento. Análisis profundo y estimaciones 		 que permiten medir su rendimiento. Detección de cualquier 		 problema existente y ajuste del flujo de trabajo para ganar en 		 eficiencia.
+-Organización y colaboración. La metodologia Kanban le permite beneficiarse del poder del enfoque visual, mediante el uso de columnas, carriles y tarjetas de colores. Usted será capaz de trabajar en el mismo tablero que su equipo y colaborar en tiempo real. Los tableros digitales Kanban le permitirán acceder a su flujo de trabajo desde cualquier sitio, compartir tareas con facilidad y comunicarse en su trabajo con sus colegas.
+-Distribución del trabajo. Una cómoda visión general de los trabajos en curso y menos tiempo dedicado a la distribución y presentación de los trabajos. Las estimaciones son imperfectas, por consiguiente, un flujo constante de tareas reducirá su tiempo de espera y el tiempo dedicado a la asignación de tareas. 
+**Desventajas:**
+-Menor efectividad en situaciones de Recursos Compartidos: Las órdenes no frecuentes vuelven ineficientes a kanban ya que se tiene que asegurar una producción suficiente por parte de un proceso mientras que a su vez el proceso que es no-frecuente es ejecutado.
+-Kanban asume sistemas de producción repetitivos dada la naturaleza de su creación en el área de manufactura.
+-Posiblemente Kanban pueda arrojar productos de baja calidad que requieren de ser retrabajados. Kanban funciona a manera de semáforo para administrar el tráfico y así cumplir con las necesidades del cliente indicando cuando empezar, cuando bajar el ritmo y cuando parar. Cualquier variabilidad o evento no esperado puede afectar el funcionamiento del sistema provocando que se generen señales confusas.
+-Calidad: El sistema Kanban lleva los niveles de inventario cerca de 0 lo que en caso de alta incertidumbre e interrupciones en la red de transporte representa un peligro ya que eso significa que los clientes se quedan sin suministro de partes.
+	
+###12. Haz un resumen de la metodología kanban e indica sus diferencias frente a SCRUM
+
+###13. Explica como funciona Scrum.
+
+###14. Define los siguientes términos:
+-Product backlog
+-Sprint backlog
+
+###15. En la terminología Scrum qué terminos se utilizan como sinónimo de:
+-Jefe de proyecto:
+-Cliente:
+-Equipo de desarrollo:
+
+###16. Haz un resumen de los requisitos para poder utilizar Scrum.
+
+###17. Explica los 5 valores de la Programación Extrema.
+
+###18. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles?
+
+
 #####Bibliografía:
 https://es.wikipedia.org/wiki/Proceso_para_el_desarrollo_de_software
 https://okhosting.com/blog/desarrollo-de-software-fases-generales/
@@ -122,3 +168,7 @@ http://ramon-gzz.blogspot.com/2012/08/verificacion-y-validacion-de-software.html
 https://es.wikipedia.org/wiki/Modelo_de_prototipos
 https://es.wikipedia.org/wiki/Desarrollo_en_espiral#Determinar_o_fijar_objetivos/
 https://es.wikipedia.org/wiki/Manifiesto_%C3%A1gil#Principios_del_Manifiesto_%C3%81gil
+https://es.wikipedia.org/wiki/Historias_de_usuario
+https://es.wikipedia.org/wiki/Lean_software_development
+https://kanbantool.com/es/metodologia-kanban
+https://iswugaps2kanban.wordpress.com/ventajas-y-desventajas/
