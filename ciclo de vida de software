@@ -140,24 +140,101 @@ Es una traducción de los principios y las prácticas de la forma de producir le
 -Posiblemente Kanban pueda arrojar productos de baja calidad que requieren de ser retrabajados. Kanban funciona a manera de semáforo para administrar el tráfico y así cumplir con las necesidades del cliente indicando cuando empezar, cuando bajar el ritmo y cuando parar. Cualquier variabilidad o evento no esperado puede afectar el funcionamiento del sistema provocando que se generen señales confusas.
 -Calidad: El sistema Kanban lleva los niveles de inventario cerca de 0 lo que en caso de alta incertidumbre e interrupciones en la red de transporte representa un peligro ya que eso significa que los clientes se quedan sin suministro de partes.
 	
-###12. Haz un resumen de la metodología kanban e indica sus diferencias frente a SCRUM
+###12, KANBAN. Haz un resumen de la metodología Kanban e indica sus diferencias frente a SCRUM.
 
-###13. Explica como funciona Scrum.
+KANBAN es un sistema de información que controla de modo armónico la fabricación de los productos necesarios en la cantidad y tiempo necesarios en cada uno de los procesos que tienen lugar tanto en el interior de la fábrica, como entre distintas empresas.
 
-###14. Define los siguientes términos:
--Product backlog
--Sprint backlog
+También se denomina “sistema de tarjetas”, pues en su implementación más sencilla utiliza tarjetas que se pegan en los contenedores de materiales y que se despegan cuando estos contenedores son utilizados, para asegurar la reposición de dichos materiales. Las tarjetas actúan de testigo del proceso de producción. Otras implementaciones más sofisticadas utilizan la misma filosofía, sustituyendo las tarjetas por otros métodos de visualización del flujo.
 
-###15. En la terminología Scrum qué terminos se utilizan como sinónimo de:
--Jefe de proyecto:
--Cliente:
--Equipo de desarrollo:
+**Diferencias con SCRUM**
 
-###16. Haz un resumen de los requisitos para poder utilizar Scrum.
+Scrum prescribe unos roles concretos. En Kanban se pueden definir roles o no.
+Scrum prescribe equipos multifuncionales. En Kanban los equipos pueden ser multifuncionales o especializados.
+Scrum prescribe reuniones concretas de tiempo fijo. En Kanban no existen reuniones prefijadas.
+Scrum prescribe la estimación y la velocidad.
+Scrum prescribe iteraciones de tiempo fijo (Sprint). Kanban no trabaja el concepto de iteración.
+Scrum establece reuniones diarias centradas en las personas.
+Scrum usa diagramas Burndown. Kanban no prescribe diagramas de seguimiento concretos.
+En Scrum, el tablero pertenece a un único equipo. En Kanban, varios equipos o personas pueden compartir el mismo tablero.
 
-###17. Explica los 5 valores de la Programación Extrema.
+###13, SCRUM. Explica como funciona Scrum.
 
-###18. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles?
+Scrum es una forma de trabajo de la metodología Ágil mediante la cual a través de prácticas colaborativas se minimizan todo tipo de riesgos en la elaboración de un proyecto. Ésta tiene su origen en equipos de alta productividad.
+
+En Scrum no se realiza una entrega final del proyecto sino que se van haciendo de forma regular entregas parciales, de forma que esto es lo que más beneficia al receptor del proyecto.  Por ello, Scrum está especialmente indicado para entornos complejos, donde los cambios se producen como mucha frecuencia y sobre la marcha y donde la rapidez, la flexibilidad, la adaptabilidad y la competencia juegan un papel fundamental.
+
+Scrum se ejecuta en bloques temporales que son cortos y periódicos, denominados Sprints, que por lo general de entre 2 hasta 4 semanas, que es el plazo para feedback y reflexión.
+
+Cada Sprint es una entidad en sí misma, esto es, proporciona un resultado completo, una variación del producto final que ha de poder ser entregado al cliente con el menor esfuerzo posible cuando éste lo solicite.
+
+El proceso tiene como punto de partida una lista de objetivos/requisitos que conforman el plan de proyecto. Es el cliente del proyecto el que prioriza estos objetivos teniendo en cuenta un balance del valor y el coste de los mismos, es así como se determinan las iteraciones y consecuentes entregas.
+###14, SCRUM. Define los siguientes términos:
+
+**Product backlog:** El Product Backlog es una lista ordenada de todo lo que podría necesitarse en el producto y es la única fuente de requerimientos para los cambios que se realizarán en el producto.
+
+**Sprint backlog:** Un Sprint Backlog es el listado de tareas en el que subdivide las historias de usuario que describen las funcionalidades que componen un proyecto. Este listado se define y estima en la reunión de Planificación del Sprint al inicio de la iteración. Las tareas deben ser pequeñas y poco acopladas para poder estimarlas.
+
+###15, SCRUM. En la terminología Scrum qué terminos se utilizan como sinónimo de:
+
+**Jefe de proyecto:** Scrum Master
+**Cliente:**  Product Owner
+**Equipo de desarrollo:** Team
+
+###16, SCRUM. Haz un resumen de los requisitos para poder utilizar Scrum.
+
+**-Cultura de empresa** basada en trabajo en equipo, delegación, creatividad y mejora continua.
+**-Compromiso del cliente** en la dirección de los resultados del proyecto, gestión del ROI y disponibilidad para poder colaborar.
+**-Compromiso de la Dirección** de la organización para resolver problemas endémicos y realizar cambios organizativos, formando equipos autogestionados y multidisciplinares y fomentando una cultura de gestión basada en la colaboración y en la facilitación llevada a cabo por líderes al servicio del equipo.
+**-Compromiso conjunto y colaboración de los miembros del equipo.**
+**-Relación entre proveedor y cliente** basada en ganar-ganar, colaboración y transparencia.
+**-Facilidad para realizar cambios** en el proyecto.
+**-Tamaño de cada equipo** entre 5 y 9 personas (con técnicas específicas de planificación y coordinación cuando varios equipos trabajan en el mismo proyecto).
+**-Equipo trabajando en un mismo espacio común** para maximizar la comunicación.
+**-Dedicación del equipo a tiempo completo.**
+**-Estabilidad de los miembros del equipo**
+
+###17, XP. Explica los 5 valores de la Programación Extrema.
+
+**Simplicidad**
+
+La simplicidad es la base de la programación extrema. Se simplifica el diseño para agilizar el desarrollo y facilitar el mantenimiento. Un diseño complejo del código junto a sucesivas modificaciones por parte de diferentes desarrolladores hacen que la complejidad aumente exponencialmente.
+
+Para mantener la simplicidad es necesaria la refactorización del código, ésta es la manera de mantener el código simple a medida que crece.
+
+También se aplica la simplicidad en la documentación, de esta manera el código debe comentarse en su justa medida, intentando eso sí que el código esté autodocumentado. Para ello se deben elegir adecuadamente los nombres de las variables, métodos y clases. Los nombres largos no decrementan la eficiencia del código ni el tiempo de desarrollo gracias a las herramientas de autocompletado y refactorización que existen actualmente.
+
+Aplicando la simplicidad junto con la autoría colectiva del código y la programación por parejas se asegura que cuanto más grande se haga el proyecto, todo el equipo conocerá más y mejor el sistema completo.
+
+**Comunicación**
+
+La comunicación se realiza de diferentes formas. Para los programadores el código comunica mejor cuanto más simple sea. Si el código es complejo hay que esforzarse para hacerlo inteligible. El código autodocumentado es más fiable que los comentarios ya que éstos últimos pronto quedan desfasados con el código a medida que es modificado. Debe comentarse sólo aquello que no va a variar, por ejemplo el objetivo de una clase o la funcionalidad de un método.
+
+Las pruebas unitarias son otra forma de comunicación ya que describen el diseño de las clases y los métodos al mostrar ejemplos concretos de como utilizar su funcionalidad. Los programadores se comunican constantemente gracias a la programación por parejas. La comunicación con el cliente es fluida ya que el cliente forma parte del equipo de desarrollo. El cliente decide qué características tienen prioridad y siempre debe estar disponible para solucionar dudas.
+
+**Retroalimentación** (feedback)
+Al estar el cliente integrado en el proyecto, su opinión sobre el estado del proyecto se conoce en tiempo real.
+
+Al realizarse ciclos muy cortos tras los cuales se muestran resultados, se minimiza el tener que rehacer partes que no cumplen con los requisitos y ayuda a los programadores a centrarse en lo que es más importante.
+
+Considérense los problemas que derivan de tener ciclos muy largos. Meses de trabajo pueden tirarse por la borda debido a cambios en los criterios del cliente o malentendidos por parte del equipo de desarrollo. El código también es una fuente de retroalimentación gracias a las herramientas de desarrollo. Por ejemplo, las pruebas unitarias informan sobre el estado de salud del código. Ejecutar las pruebas unitarias frecuentemente permite descubrir fallos debidos a cambios recientes en el código.
+
+**Coraje o valentía**
+
+Muchas de las prácticas implican valentía. Una de ellas es siempre diseñar y programar para hoy y no para mañana. Esto es un esfuerzo para evitar empantanarse en el diseño y requerir demasiado tiempo y trabajo para implementar el resto del proyecto. La valentía le permite a los desarrolladores que se sientan cómodos con reconstruir su código cuando sea necesario. Esto significa revisar el sistema existente y modificarlo si con ello los cambios futuros se implementarán más fácilmente. Otro ejemplo de valentía es saber cuando desechar un código: valentía para quitar código fuente obsoleto, sin importar cuanto esfuerzo y tiempo se invirtió en crear ese código. Además, valentía significa persistencia: un programador puede permanecer sin avanzar en un problema complejo por un día entero, y luego lo resolverá rápidamente al día siguiente, sólo si es persistente.
+
+**Respeto**
+El respeto se manifiesta de varias formas. Los miembros del equipo se respetan los unos a otros, porque los programadores no pueden realizar cambios que hacen que las pruebas existentes fallen o que demore el trabajo de sus compañeros. Los miembros respetan su trabajo porque siempre están luchando por la alta calidad en el producto y buscando el diseño óptimo o más eficiente para la solución a través de la refactorización del código. Los miembros del equipo respetan el trabajo del resto no haciendo menos a otros, una mejor autoestima en el equipo eleva su ritmo de producción.
+###18, XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas.
+
+Las técnicas de XP han de permitir flexibilidad y cambios en los requisitos, además de fomentar la simplicidad, comunicación, trabajo en equipo, retroalimentación y respeto.
+
+**TDD:** Desarrollo guiado por pruebas. Estas pruebas deben ser escritas antes del desarrollo para validar las funcionalidades.
+**Pair Programming:** Técnica en la que dos programadores comparten ordenador para programar a la vez.
+**Integración con cliente:** Una persona del cliente debe trabajar junto al equipo de desarrollo, así mejora la comunicación y el seguimiento de cambios solicitados por el cliente.
+**Refactorización:** Repasar y sobrescribir ciertas partes del código para mantenerlo lo más limpio y legible.
+**Propiedad compartida:** Promover que todos los miembros sean capaces de tocar cualquier parte del código.
+**Simplicidad:** Cuanto más simple sea el sistema construido más sencillo será comprenderlo, modificarlo o añadir nuevas funcionalidades.
+
 
 
 #####Bibliografía:
@@ -172,3 +249,13 @@ https://es.wikipedia.org/wiki/Historias_de_usuario
 https://es.wikipedia.org/wiki/Lean_software_development
 https://kanbantool.com/es/metodologia-kanban
 https://iswugaps2kanban.wordpress.com/ventajas-y-desventajas/
+https://cristinaramosvega.com/semejanzas-diferencias-kanban-scrum/
+https://es.wikipedia.org/wiki/Kanban
+https://clouding.io/blog/scrum-en-la-metodologia-agil-te-explicamos-que-es-y-como-funciona/
+http://www.ids.com.mx/desarrollo-profesional/comunidad-ids/blog/scrum-4ta-parte-artefactos
+https://www.genbeta.com/desarrollo/cuando-todos-son-ventajas-sprint-backlog-hablando-de-scrum
+http://www.javiergarzas.com/2014/03/quien-es-el-jefe-de-proyecto-en-un-proyecto-agil-scrum.html
+https://www.softeng.es/es-es/empresa/metodologias-de-trabajo/metodologia-scrum/proceso-roles-de-scrum.html
+https://proyectosagiles.org/requisitos-de-scrum/
+https://es.wikipedia.org/wiki/Programaci%C3%B3n_extrema
+https://www.quonext.com/blog/metodologias-agiles-scrum-kanban-xp/
