@@ -7,9 +7,11 @@ Obtenemos un archivo con extensión del lenguaje utilizado. Código máquina o b
 ###2. ¿Para qué sirve un enlazador?¿Qué tipo de archivo obtenemos tras enlazar?
 Es un programa que toma los objetos generados en los primeros pasos del proceso de compilación, la información de todos los recursos necesarios (biblioteca), quita aquellos recursos que no necesita, y enlaza el código objeto con su(s) biblioteca(s) con lo que finalmente produce un fichero ejecutable o una biblioteca. En el caso de los programas enlazados dinámicamente, el enlace entre el programa ejecutable y las bibliotecas se realiza en tiempo de carga o ejecución del programa. 
 
-
+Un programa para generar el ejecutable final.
 
 ###3. ¿Para qué sirve un intérprete?¿Obtenemos algún archivo tras interpretar?
+
+Sirve para analizar y ejecutar programas. Los intérpretes se diferencian de los compiladores o de los ensambladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, los intérpretes sólo realizan la traducción a medida que sea necesaria, típicamente, instrucción por instrucción, y normalmente no guardan el resultado de dicha traducción. 
 
 ###4. Explica cada uno de los siguientes conceptos e indica la relación entre ellos:
 
@@ -22,3 +24,4 @@ Es un programa que toma los objetos generados en los primeros pasos del proceso 
 ######Bibliografía
 https://es.wikipedia.org/wiki/Compilador
 https://es.wikipedia.org/wiki/Enlazador
+https://es.wikipedia.org/wiki/Enlazado
