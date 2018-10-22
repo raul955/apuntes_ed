@@ -15,13 +15,25 @@ Sirve para analizar y ejecutar programas. Los intérpretes se diferencian de los
 
 ###4. Explica cada uno de los siguientes conceptos e indica la relación entre ellos:
 
-➝Código Fuente:
-➝Código Objeto:
-➝Código Binario:
+**➝Código Fuente:** El código fuente de un programa informático (o software) es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar dicho programa.
+
+El código fuente de un programa está escrito por un programador en algún lenguaje de programación, pero en este primer estado no es directamente ejecutable por la computadora, sino que debe ser traducido a otro lenguaje o código binario; así será más fácil para la máquina interpretarlo (lenguaje máquina o código objeto que sí pueda ser ejecutado por el hardware de la computadora). Para esta traducción se usan los llamados compiladores, ensambladores, intérpretes y otros sistemas de traducción. 
+
+**➝Código Objeto:** se llama código objeto al código que resulta de la compilación del código fuente.1​ Puede ser en lenguaje máquina o bytecode, y puede distribuirse en varios archivos que corresponden a cada código fuente compilado. Luego un enlazador (linker) se encarga de juntar todos los archivos de código objeto para obtener el programa ejecutable. Código objeto: Conjunto de instrucciones y datos escritos en un lenguaje que entiende el ordenador directamente: binario o código máquina. Provienen de la traducción de cierto código fuente, es un fragmento del programa final y es específico de la plataforma de ejecución. 
+
+**➝Código Binario:** El código binario es el sistema numérico usado para la representación de textos, o procesadores de instrucciones de computadora, utilizando el sistema binario (sistema numérico de dos dígitos, o bit: el "0" /cerrado/ y el "1" /abierto/). En informática y telecomunicaciones, el código binario se utiliza con variados métodos de codificación de datos, tales como cadenas de caracteres, o cadenas de bits. Estos métodos pueden ser de ancho fijo o ancho variable.
+
+Los tres se tratan de distintos estados del código en el desarrollo del software.
 
 ###5. ¿Qué tipo de código es ByteCode generado por el compilador de java?
+
+El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera recibir, para posteriormente ser compiladas a lenguaje de máquina, mediante un compilador JIT a la hora de su ejecución. Usualmente es el resultado de utilizar un compilador del lenguaje de programación Java (como javac), pero puede ser generado desde otros compiladores. 
 
 ######Bibliografía
 https://es.wikipedia.org/wiki/Compilador
 https://es.wikipedia.org/wiki/Enlazador
 https://es.wikipedia.org/wiki/Enlazado
+https://es.wikipedia.org/wiki/C%C3%B3digo_fuente
+https://es.wikipedia.org/wiki/C%C3%B3digo_objeto
+https://es.wikipedia.org/wiki/C%C3%B3digo_binario
+https://es.wikipedia.org/wiki/Bytecode_Java
