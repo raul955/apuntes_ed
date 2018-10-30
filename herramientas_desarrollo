@@ -37,3 +37,153 @@ https://es.wikipedia.org/wiki/C%C3%B3digo_fuente
 https://es.wikipedia.org/wiki/C%C3%B3digo_objeto
 https://es.wikipedia.org/wiki/C%C3%B3digo_binario
 https://es.wikipedia.org/wiki/Bytecode_Java
+
+
+### 2. Para cada uno de los lenguajes anteriores, indica el proceso realizado para conseguir ejecutar el código: ¿compilación o interpretación?
+
+**Bash:** Interpretación
+**Python:** Interpretación
+**Php:** Interpretación
+**Javascript:** Interpretación
+**C:** Compilación
+**C++:** Compilación
+**Java:** Compilación
+**Ruby:** Interpretación
+**Go:** Compilación e Interpretación
+**Rust:** Interpretación
+**Lisp:** Interpretación
+**Ensablador:** Interpretación
+
+###3. Para cada uno de los lenguajes anteriores, indica el nombre del compilador o interprete utilizado en GNU/Linux.
+
+**Bash:** Terminal
+**Python:** Python
+**Php:** Php
+**Javascript:** Node
+**C:** Gcc
+**C++:** G++
+**Java:** Javac
+**Ruby:** Ruby
+**Go:** Golang
+**Rust:** Rustc
+**Lisp:** Clisp
+**Ensablador:** Nasm
+
+###4. Investiga y averigua que extensión tienen los archivos de código fuente de los siguientes lenguajes:
+
+**Bash:** .sh
+**Python:** .py
+**Php:** .php
+**Javascript:** .js
+**C:** .c
+**C++:** .cpp
+**Java:** .java
+**Ruby:** .rb
+**Go:** .go
+**Rust:** .rs
+**Lisp:** .lisp
+**Ensablador:** .asm
+
+###5. Scripts ejecutables para los lenguajes interpretados. Edita los scripts para los siguientes lenguajes:
+
+**Bash:** echo "Hola mundo"
+**Python:** print "Hola mundo"
+**Php:** 
+<?php 
+  echo "Hola mundo\n" 
+?>
+**Javascript:** console.log('Hola mundo');
+**C:** 
+ #include <stdio.h>
+
+int main()
+{
+    printf("¡Hola, mundo!");
+    return 0;
+}
+**C++:** 
+ class Hola
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hola Mundo");
+    }
+}
+**Java:** 
+class Hola
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hola Mundo");
+    }
+}
+**Ruby:** puts "Hola Mundo"
+**Go:** 
+package main
+
+import "fmt"
+
+func main() {
+        fmt.Println("Hola mundo desde Go")
+}
+**Rust:** 
+fn main() {
+    println!("¡Hola, mundo! Desde RUST ");
+}
+**Lisp:** (format t "¡Hola, mundo!")
+**Ensablador:** 
+ section .data
+ 
+ msg     db "¡Hola Mundo!", 0Ah
+ len     equ     $ - msg  
+ 
+ section .text
+ 
+ global _start
+ 
+ _start:
+        mov     eax, 04h
+        mov     ebx, 01h
+        mov     ecx, msg
+        mov     edx, len
+        int     80h
+        mov     eax, 01h
+        mov     ebx, 00h
+        int     80h
+
+###6. ¿Qué extensión tienen los archivos de código objeto?
+
+.o
+
+###7. Lenguaje C. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:
+
+###8. Lenguaje C. Código en varios archivos. Obtener el código binario ejecutable a partir del código objeto de los 3 archivos anteriores:
+
+###9. Lenguaje C++. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:
+
+###10. Lenguaje C++. Código en varios archivos. Obtener el código binario ejecutable a partir del código objeto de los 3 archivos anteriores:
+
+###11. Bibliotecas. Define que se entiende por biblioteca o librería y los tipos que existen.
+
+###12. Bibliotecas. ¿Qué tipo es el más utilizado actualmente? ¿Por qué?
+
+###13. Bibliotecas. Crea una biblioteca dinámica en C que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
+
+###14. Bibliotecas. Crea una biblioteca dinámica en Java que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
+
+###15. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas estáticas.
+
+###16. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas dinámicas.
+
+###17. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo ejecutable para código fuente en C con make. Haz uso de un buildfile.
+
+###18. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo .jar para código fuente en Java con Ant. Haz uso de un buildfile.
+
+###19. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo .jar para código fuente en Java con Maven. Haz uso de un buildfile.
+
+###20. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo .jar para código fuente en Java con Gradle. Haz uso de un buildfile.
+
+###21. CMake. Automatiza el proceso de compilación de ejecutable y bibliotecas, su enlazado y la generación del archivo ejecutable para código fuente en C++. Crea un buildfile con CMake.
+
+
+###Bibliografía.
