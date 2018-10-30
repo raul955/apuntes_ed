@@ -152,8 +152,7 @@ fn main() {
         int     80h
 
 ###6. ¿Qué extensión tienen los archivos de código objeto?
-
-.o
+Cada lenguaje tiene una extensión diferente.
 
 ###7. Lenguaje C. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:
 Encontrarás los archivos en el siguiente enlace:
@@ -173,7 +172,18 @@ https://github.com/raul955/apuntes_ed/tree/master/entornos%20.o
 
 ###11. Bibliotecas. Define que se entiende por biblioteca o librería y los tipos que existen.
 
+Es un conjunto de implementaciones funcionales, codificadas en un lenguaje de programación, que ofrece una interfaz bien definida para la funcionalidad que se invoca. 
+
+**Bibliotecas estáticas** es un fichero contenedor con varios archivos de código objeto empaquetados, que en el proceso de enlazado durante la compilación serán copiados y relocalizados (si es necesario) en el fichero ejecutable final, junto con el resto de ficheros de código objeto.
+**Bibliotecas dinámicas** son ficheros que contienen código objeto construido de forma independiente de su ubicación3​ de tal modo que están preparadas para poder ser requeridas y cargadas en tiempo de ejecución por cualquier programa, en lugar de tener que ser enlazadas, previamente, en tiempo de compilación. Por tanto, han de estar disponibles como ficheros independientes al programa ejecutable.
+
+https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica)#Tipos
+
 ###12. Bibliotecas. ¿Qué tipo es el más utilizado actualmente? ¿Por qué?
+Depende, cada una tiene sus ventajas y desventajas.
+Para programas no muy grandes y por simplicidad, se suelen usar librerías estáticas. Las dinámicas están bien para programas enormes o para librerías del sistema, que como están en todos los ordenadores con linux, no es necesario andar llevándoselas de un lado a otro. 
+
+http://www.chuidiang.org/clinux/herramientas/librerias.php
 
 ###13. Bibliotecas. Crea una biblioteca dinámica en C que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
 
