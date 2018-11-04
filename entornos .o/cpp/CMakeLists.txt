@@ -9,33 +9,33 @@ INCLUDE_DIRECTORIES (${PROJECT_SOURCE_DIR}/MyLib1  ${PROJECT_SOURCE_DIR}/MyLib2)
 
 # Ejecutable
 #---------------------------------------------------------------
-FILE(GLOB MyAppSrc SOURCES "MyApp/*.cpp")
-ADD_EXECUTABLE(MyApplication ${MyAppSrc})
+FILE(GLOB MyAppSrc SOURCES "app/*.cpp")
+ADD_EXECUTABLE(MyApplication ${app})
 
 
 # Biblioteca dinámica
 #---------------------------------------------------------------
-FILE(GLOB MyLibSrc1 "MyLib1/*.cpp")
-ADD_LIBRARY(MyLibrary1 SHARED ${MyLibSrc1})
+FILE(GLOB MyLibSrc1 "libreria2/*.cpp")
+ADD_LIBRARY(MyLibrary1 SHARED ${libreria2})
 
 
 # Biblioteca estática
 #---------------------------------------------------------------
-FILE(GLOB MyLibSrc2 "MyLib2/*.cpp")
-ADD_LIBRARY(MyLibrary2 STATIC ${MyLibSrc2})
+FILE(GLOB MyLibSrc2 "libreria3/*.cpp")
+ADD_LIBRARY(MyLibrary2 STATIC ${libreria3})
 
 
 # Enlazado
 #---------------------------------------------------------------
-TARGET_LINK_LIBRARIES(MyApplication  MyLibrary1  MyLibrary2)
+TARGET_LINK_LIBRARIES(app  libreria2  libreria3)
 
 # IMPORTANTE: Establecemos RPATH para ejecutable (sirve para encontrar las bibliotecas)
-SET_TARGET_PROPERTIES(MyApplication  PROPERTIES  INSTALL_RPATH ${CMAKE_INSTALL_PREFIX}/lib)
+SET_TARGET_PROPERTIES(app  PROPERTIES  INSTALL_RPATH ${CMAKE_INSTALL_PREFIX}/lib)
 
 
 # Instalación
 #---------------------------------------------------------------
-INSTALL (TARGETS  MyApplication  MyLibrary1  MyLibrary2
+INSTALL (TARGETS  app  libreria2  libreria3
   RUNTIME DESTINATION "${CMAKE_INSTALL_PREFIX}/bin"
   LIBRARY DESTINATION "${CMAKE_INSTALL_PREFIX}/lib"
   ARCHIVE DESTINATION "${CMAKE_INSTALL_PREFIX}/lib"
