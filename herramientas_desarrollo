@@ -185,11 +185,11 @@ Para programas no muy grandes y por simplicidad, se suelen usar librerías está
 
 http://www.chuidiang.org/clinux/herramientas/librerias.php
 
-###13. Bibliotecas. Crea una biblioteca dinámica en C que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
+###13. Bibliotecas. Crea una librería dinámica en C que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
 
-###14. Bibliotecas. Crea una biblioteca dinámica en Java que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
+###14. Bibliotecas. Crea una librería dinámica en Java que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.
 
-###15. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas estáticas.
+###15. Bibliotecas. Busca información y explica las ventajas y desventajas de usar librerías estáticas.
 
 
 -Un programa compilado con librerías estáticas es más grande, ya que se hace copia de todo lo que necesita.
@@ -198,7 +198,11 @@ http://www.chuidiang.org/clinux/herramientas/librerias.php
 -Si cambiamos una librería estática, a los ejecutables no les afecta. Si cambiamos una dinámica, los ejecutables se ven afectados. Esto es una ventaja si hemos cambiado la librería para corregir un error (se corrige automáticamente en todos los ejecutables), pero es un inconveniente si tocar eso nos hace cambiar los ejecutables (por ejemplo, hemos añadido un parámetro más a una función de la librería, los ejecutables ya hechos dejan de funcionar).
 
 
-###16. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas dinámicas.
+###16. Bibliotecas. Busca información y explica las ventajas y desventajas de usar librerías dinámicas.
+
+No se copia en nuestro programa al compilarlo. Cuando tengamos nuestro ejecutable y lo estemos ejecutando, cada vez que el código necesite algo de la librería, irá a buscarlo a ésta. Si borramos la librería, nuestro programa dará un error de que no la encuentra. 
+
+Están bien para programas enormes o para librerías del sistema, que como están en todos los ordenadores con linux, no es necesario andar llevándoselas de un lado a otro. 
 
 ###17. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo ejecutable para código fuente en C con make. Haz uso de un buildfile.
 
